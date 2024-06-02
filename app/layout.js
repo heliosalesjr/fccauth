@@ -12,7 +12,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-emerald-100">
         <Nav />
-        {children}</body>
+        <div className="m-2">
+          {children}
+        </div>
+        </body>
     </html>
   );
 }
