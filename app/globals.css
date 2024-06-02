@@ -9,7 +9,5 @@
   a {
     @apply underline font-bold;
   }
-  body {
-    @apply bg-slate-200;
-  }
+  
 }
